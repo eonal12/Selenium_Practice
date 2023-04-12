@@ -27,7 +27,7 @@ public class Task07_Junit extends TestBase {
         for (int i = 0; i < 10; i++) {
             actions.moveByOffset(0,5);
         }
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 13; i++) {
             actions.moveByOffset(5,0);
         }
         actions.release().perform();
